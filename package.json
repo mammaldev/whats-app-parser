@@ -1,0 +1,20 @@
+{
+  "name": "whats-app-parser",
+  "version": "0.0.0",
+  "description": "A What's App chat export parser",
+  "main": "src/parser.js",
+  "scripts": {
+    "test": "mocha tests/**/*.js -R spec --recursive",
+    "coverage": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- tests/**/*.js -R spec --recursive"
+  },
+  "author": "Ollie Relph",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.9.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "istanbul": "^0.2.13",
+    "mocha": "^1.20.1"
+  }
+}
